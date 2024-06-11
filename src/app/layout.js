@@ -3,7 +3,6 @@ import './globals.css'
 import { Providers } from '@/app/store/provider'
 const inter = Inter({ subsets: ['latin'] })
 
-//Adding this line for git activity
 
 export const metadata = {
   title: 'Create Next App',
