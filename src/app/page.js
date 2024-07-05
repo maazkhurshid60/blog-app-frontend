@@ -1,7 +1,7 @@
 
 import {AllBlogsComponent} from '@/components/index'
 
-// Changes line for git activity
+// Add line for git activity
 export default function Home() {
   return (
    <main>
