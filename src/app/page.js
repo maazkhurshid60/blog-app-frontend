@@ -1,13 +1,13 @@
 
-import {AllBlogsComponent} from '@/components/index'
+import { AllBlogsComponent } from '@/components/index'
 
-// Adding this line for git activity 
+// adding this line for git activity 
 export default function Home() {
   return (
-   <main>
-    <div>
-      <AllBlogsComponent />
-    </div>
-   </main>
+    <main>
+      <div>
+        <AllBlogsComponent />
+      </div>
+    </main>
   )
 }
