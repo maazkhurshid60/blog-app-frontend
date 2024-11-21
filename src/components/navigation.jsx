@@ -13,12 +13,14 @@ import { useRouter } from "next/navigation";
 //         path: '/',
 //         authentication: false,
 //     },
+
 //     {
 //         id: 1,
 //         routeName: 'Add Blog',
 //         path: '/add-blog',
 //         authentication: true,
 //     },
+
 //     {
 //         id: 2,
 //         routeName: 'Profile',
@@ -35,6 +37,7 @@ export default function Navigation() {
     const auth = useSelector(state => state.auth);
 
     const toggleMobileNav = () => {
+        //Toggle Navbar
         if(isMobileNavVisible) {
             setIsMobileNavVisible(false);
         } else {
@@ -67,11 +70,13 @@ export default function Navigation() {
                             </>
                         )
                     }
-                        {/* {
+                        {
+                        /* {
                             routes.map(route => (
                                 <li key={route.id} className={`hover:text-purple-700 duration-200 ${pathName === '/add-blog' ? 'active' : ""}`}><Link href={`${route.path}`}>{route.routeName}</Link></li>
                             ))
-                        } */}
+                        } */
+                        }
                 </ul>
 
                 {
